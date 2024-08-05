@@ -5,7 +5,8 @@ import { notifySettings } from '../../utils/notifySettings';
 
 import { List } from './ContactList.styled';
 import { ContactItem } from './CotactItem';
-import { fetchContacts, deleteContact } from 'redux/operations';
+import { fetchContacts, deleteContact } from '../../redux/operations'; // Adjust the path based on your file structure
+
 
 export const ContactList = () => {
   const dispatch = useDispatch();
